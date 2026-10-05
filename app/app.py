@@ -126,7 +126,7 @@ with tab2:
     preprocessor = rf_model.named_steps["prep"]
     feature_names = preprocessor.get_feature_names_out()
 
-    rf_classifier = rf_model.named_steps["model"]
+    rf_classifier = rf_model.named_steps["clf"]
     feature_importance = rf_classifier.feature_importances_
 
     feat_imp = pd.DataFrame({
