@@ -123,7 +123,7 @@ with tab1:
         st.pyplot(fig)
 
 with tab2:
-    preprocessor = rf_model.named_steps["preprocessor"]
+    preprocessor = rf_model.named_steps["prep"]
     feature_names = preprocessor.get_feature_names_out()
 
     rf_classifier = rf_model.named_steps["model"]
