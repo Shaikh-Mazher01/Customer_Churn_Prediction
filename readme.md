@@ -63,28 +63,6 @@ Customer_Churn_Prediction/
 └── README.md                    # Project documentation
 ```
 
-# 📉 Customer Churn Prediction & Retention Analytics
-
-An end-to-end Machine Learning web application designed to predict customer churn, identify key risk factors, and help businesses proactively retain valuable customers through transparent, data-driven insights. 
-
-🔗 **Live App:** [View Streamlit Application](https://customerchurnprediction-zkbeoitb8v2dkq45n7wnto.streamlit.app/)
-
----
-
-## 💡 About the Project
-Customer churn is one of the most critical metrics for subscription and service-based businesses. Acquiring new customers is significantly more expensive than retaining existing ones. 
-
-This project solves the churn problem by analyzing historical customer patterns, training robust predictive models, and providing an interactive web interface backed by model explainability.
-
----
-
-## 🛠️ Tech Stack & Libraries
-- **Language:** Python
-- **Machine Learning & Modeling:** Scikit-Learn, Pandas, NumPy
-- **Model Explainability:** SHAP (SHapley Additive Explanations)
-- **Web App & Deployment:** Streamlit Cloud
-- **Data Visualization:** Matplotlib / Seaborn
-
 ---
 
 ## 🤖 Models Used
