@@ -178,11 +178,11 @@ with tab2:
     st.pyplot(fig)
 
     performance_df = pd.DataFrame({
-    "clf": ["Logistic Regression", "Random Forest"],
-    "ROC AUC": [0.86, 0.85, 0.85],
-    "F1 Score": [0.64, 0.65, 0.63],
-    "Precision": [0.52, 0.56, 0.55],
-    "Recall": [0.84, 0.78, 0.75]
+    "Model": ["Logistic Regression", "Random Forest"],
+    "ROC AUC": [0.86, 0.85],
+    "F1 Score": [0.64, 0.65],
+    "Precision": [0.52, 0.56],
+    "Recall": [0.84, 0.78]
 })
 
     st.subheader("Model Performance")
