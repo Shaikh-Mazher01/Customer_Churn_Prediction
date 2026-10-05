@@ -1,0 +1,4 @@
+venv/
+.venv/
+data/
+Customer_Churn_Prediction_sample.ipynb
